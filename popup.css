@@ -1,0 +1,39 @@
+body {
+    background-color: #1E90FF; /* Dodger blue background */
+    color: #FFFFFF; /* White text */
+    margin: 0;
+    padding: 20px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    width: 300px;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#linkWalletButton {
+    background-color: #FFFFFF;
+    color: #1E90FF;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+p {
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto 20px;
+    font-size: 16px; /* Add this line to increase the font size */
+}

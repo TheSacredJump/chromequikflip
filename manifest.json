@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "QuikFlip",
+  "version": "1.0",
+  "description": "Instant Crypto Exchange connecting Customers to Businesses",
+  "permissions": ["storage", "http://localhost:3000/", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/lightlogo.png"
+    }
+  },
+  "icons": {
+    "16": "images/lightlogo.png"
+  }
+}
